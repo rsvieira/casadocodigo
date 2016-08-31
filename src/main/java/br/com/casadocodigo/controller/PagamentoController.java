@@ -58,8 +58,7 @@ public class PagamentoController {
 		
 		SimpleMailMessage mailMessage = new SimpleMailMessage();
 		
-//		mailMessage.setTo(usuario.getEmail());
-		mailMessage.setTo("ramonsv89@gmail.com");
+		mailMessage.setTo(usuario.getEmail());
 		
 		mailMessage.setSubject("Compra Efetuada com sucesso");
 		mailMessage.setText("O valor da sua compra foi de: R$ " + carrinho.getTotal());
