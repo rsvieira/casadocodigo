@@ -22,6 +22,11 @@ public class FileSaver {
 			String realPath = request.getServletContext().getRealPath("/resources/" + baseFolder);
 			String path = realPath + "/" + file.getOriginalFilename();
 			
+			System.out.println("-------------------------------------");
+			System.out.println("realPath = " + realPath);
+			System.out.println("path = " + path);
+			System.out.println("-------------------------------------");
+			
 			file.transferTo(new File(path));
 			
 			return baseFolder + "/" + file.getOriginalFilename();
