@@ -66,6 +66,8 @@ public class ProdutoController {
 //		System.out.println(produto.toString());
 //		System.out.println("# -- FIM -- #");
 		
+		produto.setSumarioPath("/");
+		
 		produtoDao.gravar(produto);
 
 		redirectAttributes.addFlashAttribute("message", "Produto cadastrado com sucesso!");
