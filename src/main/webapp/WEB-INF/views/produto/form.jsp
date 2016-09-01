@@ -108,14 +108,14 @@
 				</c:forEach>
 			</div>
 
-			<div style="padding-left: 40px;">
-				<div class="form-group">
-					<label class="col-sm-1">Súmario</label>
-					<div class="col-sm-6">
-						<input type="file" name="sumario" class="form-control" />
-					</div>
-				</div>
-			</div>
+<!-- 			<div style="padding-left: 40px;"> -->
+<!-- 				<div class="form-group"> -->
+<!-- 					<label class="col-sm-1">Súmario</label> -->
+<!-- 					<div class="col-sm-6"> -->
+<!-- 						<input type="file" name="sumario" class="form-control" /> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
 
 			<br />
 			<br />
