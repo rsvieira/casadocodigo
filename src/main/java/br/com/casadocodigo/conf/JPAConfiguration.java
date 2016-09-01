@@ -77,8 +77,8 @@ public class JPAConfiguration {
 		
 		dataSource.setUsername(dbUrl.getUserInfo().split(":")[0]);
 		dataSource.setPassword(dbUrl.getUserInfo().split(":")[1]);
-		
-		dataSource.setDriverClassName("com.postgresql.Driver");
+							           
+		dataSource.setDriverClassName("org.postgresql.Driver");
 		
 		return dataSource;
 	}
