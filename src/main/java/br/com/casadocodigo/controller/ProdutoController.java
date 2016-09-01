@@ -57,15 +57,14 @@ public class ProdutoController {
 		if(bindingResult.hasErrors()){
 			return form(produto);
 		}
-
 		
-		produto.setSumarioPath(fileSaver.write("arquivos-sumario", sumario));
-
-		System.out.println("# -- Inicio log method cadastrar -- #");
-		System.out.println(sumario.getOriginalFilename());
-		System.out.println("----");
-		System.out.println(produto.toString());
-		System.out.println("# -- FIM -- #");
+//		produto.setSumarioPath(fileSaver.write("arquivos-sumario", sumario));
+//
+//		System.out.println("# -- Inicio log method cadastrar -- #");
+//		System.out.println(sumario.getOriginalFilename());
+//		System.out.println("----");
+//		System.out.println(produto.toString());
+//		System.out.println("# -- FIM -- #");
 		
 		produtoDao.gravar(produto);
 
