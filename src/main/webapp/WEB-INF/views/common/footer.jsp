@@ -41,7 +41,7 @@
 				<p class="footer-title">Redes Sociais</p>
 				<ul>
 					<li class="social-links">
-						<a href="https://www.instagram.com/rahivo" target="_blank"
+						<a href="https://www.instagram.com/ramonsv89" target="_blank"
 							id="instagram" rel="nofollow">Instagram</a>
 						<a href="https://www.facebook.com/rsvieira89" target="_blank"
 							id="facebook" rel="nofollow">Facebook</a>
