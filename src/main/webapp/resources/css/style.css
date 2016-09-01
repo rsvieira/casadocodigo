@@ -202,14 +202,31 @@ h3,h1{
 
 #facebook {
   display:block;
-  background-color: red;
+  background-image: url(https://www.facebook.com/rsrc.php/v3/yh/r/-b5ytADNMkY.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -163px;
+  width: 31px;
+  height: 31px;
+  text-indent: -9999px;
+  float: left;
+  margin-left: 20px;
+  margin-top: -6px;
+}
+
+#instagram
+{
+  display:block;
+  background-image: url(//instagramstatic-a.akamaihd.net/h1/sprites/core/684453.png);
+  background-repeat: no-repeat;
+  background-position: -504px -176px;
   width: 31px;
   height: 31px;
   text-indent: -9999px;
   float: left;
   margin-left: 20px;
   margin-top: -10px;
-}
+} 
 
 #paypal {
   float: left;
