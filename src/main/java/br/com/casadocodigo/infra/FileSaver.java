@@ -9,6 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Component
 public class FileSaver {
 	

@@ -9,6 +9,11 @@ import org.springframework.web.servlet.ModelAndView;
 
 import br.com.casadocodigo.model.Usuario;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Controller
 public class UsuarioController {
 	

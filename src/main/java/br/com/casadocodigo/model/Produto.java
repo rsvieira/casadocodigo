@@ -15,6 +15,11 @@ import javax.persistence.Table;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Entity
 @Table(name="produto")
 public class Produto implements Serializable{

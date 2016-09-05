@@ -2,6 +2,11 @@ package br.com.casadocodigo.model;
 
 import java.math.BigDecimal;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 public class CarrinhoItem {
 	
 	private Produto produto;

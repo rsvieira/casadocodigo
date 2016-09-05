@@ -42,6 +42,11 @@ import br.com.casadocodigo.dao.ProdutoDAO;
 import br.com.casadocodigo.infra.FileSaver;
 import br.com.casadocodigo.model.CarrinhoCompras;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @EnableWebMvc
 @ComponentScan(basePackageClasses={HomeController.class, ProdutoDAO.class, FileSaver.class, CarrinhoCompras.class})
 @EnableCaching

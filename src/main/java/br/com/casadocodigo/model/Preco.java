@@ -4,6 +4,11 @@ import java.math.BigDecimal;
 
 import javax.persistence.Embeddable;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Embeddable
 public class Preco {
 	

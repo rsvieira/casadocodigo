@@ -11,6 +11,11 @@ import org.springframework.stereotype.Repository;
 
 import br.com.casadocodigo.model.Usuario;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Repository
 public class UsuarioDAO implements UserDetailsService {
 	

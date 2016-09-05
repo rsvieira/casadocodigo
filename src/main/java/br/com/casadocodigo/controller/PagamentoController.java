@@ -18,6 +18,11 @@ import br.com.casadocodigo.model.CarrinhoCompras;
 import br.com.casadocodigo.model.DadosServico;
 import br.com.casadocodigo.model.Usuario;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Controller
 @RequestMapping("/pagamento")
 public class PagamentoController {

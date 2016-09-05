@@ -6,6 +6,11 @@ import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 public class JsonViewResolver implements ViewResolver {
 
 	@Override

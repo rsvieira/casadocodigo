@@ -14,6 +14,11 @@ import br.com.casadocodigo.model.CarrinhoItem;
 import br.com.casadocodigo.model.Produto;
 import br.com.casadocodigo.model.TipoPreco;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Controller
 @RequestMapping("/carrinho")
 @Scope(value=WebApplicationContext.SCOPE_REQUEST)

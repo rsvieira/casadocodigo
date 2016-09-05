@@ -25,6 +25,11 @@ import br.com.casadocodigo.model.Produto;
 import br.com.casadocodigo.model.TipoPreco;
 import br.com.casadocodigo.validation.ProdutoValidation;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Controller
 @RequestMapping("/produto")
 public class ProdutoController {
@@ -60,7 +65,7 @@ public class ProdutoController {
 		
 //		produto.setSumarioPath(fileSaver.write("arquivos-sumario", sumario));
 //
-//		System.out.println("# -- Inicio log method cadastrar -- #");
+//		System.out.println("# -- Inicio path arquivo -- #");
 //		System.out.println(sumario.getOriginalFilename());
 //		System.out.println("----");
 //		System.out.println(produto.toString());

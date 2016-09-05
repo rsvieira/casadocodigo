@@ -6,6 +6,11 @@ import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.view.xml.MappingJackson2XmlView;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 public class XmlViewResolver implements ViewResolver {
 
 	@Override

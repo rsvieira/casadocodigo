@@ -12,6 +12,11 @@ import javax.persistence.OneToMany;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Entity
 public class Usuario implements UserDetails {
 

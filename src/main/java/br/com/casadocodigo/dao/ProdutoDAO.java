@@ -13,6 +13,11 @@ import org.springframework.transaction.annotation.Transactional;
 import br.com.casadocodigo.model.Produto;
 import br.com.casadocodigo.model.TipoPreco;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @Repository
 @Transactional
 public class ProdutoDAO {

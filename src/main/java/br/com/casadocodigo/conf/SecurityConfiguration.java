@@ -11,6 +11,11 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import br.com.casadocodigo.dao.UsuarioDAO;
 
+/**
+ * @author Ramon Vieira
+ *
+ */
+
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	
@@ -20,23 +25,15 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 
-//		http.authorizeRequests()
-//			.antMatchers("/produto/form").hasRole("ADMIN")
-//			.antMatchers("/produto/list").hasRole("ADMIN")
-//			.antMatchers("/produto/**").permitAll()
-//			.antMatchers("/carrinho/**").permitAll()
-//			.antMatchers("/").permitAll()
-//			.anyRequest().authenticated()
-//			.and().formLogin().loginPage("/login").permitAll()
-//			.and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/");
-		
 		http.authorizeRequests()
-		.antMatchers("/produto/**").permitAll()
-		.antMatchers("/carrinho/**").permitAll()
-		.antMatchers("/").permitAll()
-		.anyRequest().authenticated()
-		.and().formLogin().loginPage("/login").permitAll()
-		.and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/");
+			.antMatchers("/produto/form").hasRole("ADMIN")
+			.antMatchers("/produto/list").hasRole("ADMIN")
+			.antMatchers("/produto/**").permitAll()
+			.antMatchers("/carrinho/**").permitAll()
+			.antMatchers("/").permitAll()
+			.anyRequest().authenticated()
+			.and().formLogin().loginPage("/login").permitAll()
+			.and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/");
 		
 	}
 	
