@@ -31,12 +31,12 @@ public class JPAConfiguration {
         factoryBean.setJpaVendorAdapter(jpaVendorAdapter );
         
         // alterar a depender do banco
-//        factoryBean.setDataSource(dataSourceConfigMySql());
-        factoryBean.setDataSource(dataSourceConfigPostgreSQL());
+        factoryBean.setDataSource(dataSourceConfigMySql());
+//        factoryBean.setDataSource(dataSourceConfigPostgreSQL());
 
         // alterar a depender do banco
-//        factoryBean.setJpaProperties(getPropertiesMySql());
-        factoryBean.setJpaProperties(getPropertiesPostgreSQL());
+        factoryBean.setJpaProperties(getPropertiesMySql());
+//        factoryBean.setJpaProperties(getPropertiesPostgreSQL());
         
 
         factoryBean.setPackagesToScan("br.com.casadocodigo.model");

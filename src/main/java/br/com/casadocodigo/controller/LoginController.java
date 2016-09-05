@@ -17,5 +17,10 @@ public class LoginController {
         return "home";
     }
     
+    @RequestMapping(value="/criarUsuario", method=RequestMethod.GET)
+    public String criarUsuario(){
+    	return "usuario/usuarioForm";
+    }
+    
 
 }

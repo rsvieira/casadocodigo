@@ -42,6 +42,10 @@
 		<link rel="canonical" href="http://www.casadocodigo.com.br/" />	
 		<link href="${contextPath}resources/css/book-collection.css"
 				rel="stylesheet" type="text/css" media="all" />
+				
+	<link rel="stylesheet" href="${contextPath}resources/css/bootstrap.min.css">
+	<link rel="stylesheet" href="${contextPath}resources/css/bootstrap-theme.min.css">				
+				
 </head>
 <body>
 
